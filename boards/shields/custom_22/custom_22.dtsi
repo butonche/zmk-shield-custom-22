@@ -1,5 +1,13 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+&gpio0 {
+    charge_100ma: charge-100ma {
+        gpio-hog;
+        gpios = <13 GPIO_ACTIVE_HIGH>;
+        output-low;
+    };
+};
+
 / {
 
     chosen {
