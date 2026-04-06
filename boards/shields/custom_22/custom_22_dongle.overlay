@@ -9,6 +9,7 @@
 &kscan0 {
     compatible = "zmk,kscan-mock";
     /delete-property/ input-gpios;
+    /delete-property/ wakeup-source;
     columns = <1>;
     rows = <0>;
     events = <>;
