@@ -3,11 +3,5 @@ id: custom_22
 name: custom_22
 type: shield
 requires: [seeeduino_xiao_ble]
-exposes: [i2c_oled]
 features:
   - keys
-  - display
-siblings:
-  - custom_22_left
-  - custom_22_right
-  - custom_22_dongle
